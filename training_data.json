@@ -1,0 +1,74 @@
+{
+  "ner_train_data": [
+    {
+      "text": "set a timer for 10 minutes",
+      "entities": [[16, 26, "DURATION"]]
+    },
+    {
+      "text": "set a timer for 5 minutes",
+      "entities": [[16, 25, "DURATION"]]
+    },
+    {
+      "text": "play jazz music",
+      "entities": [[5, 9, "GENRE"]]
+    },
+    {
+      "text": "play rock songs",
+      "entities": [[5, 9, "GENRE"]]
+    },
+    {
+      "text": "play pop songs",
+      "entities": [[5, 8, "GENRE"]]
+    },
+    {
+      "text": "classic music please",
+      "entities": [[1, 7, "GENRE"]]
+    },
+    {
+      "text": "play heavy metal",
+      "entities": [[5, 16, "GENRE"]]
+    },
+    {
+      "text": "open youtube",
+      "entities": [[5, 12, "APP"]]
+    },
+    {
+      "text": "open spotify",
+      "entities": [[5, 12, "APP"]]
+    },
+     {
+      "text": "launch youtube",
+      "entities": [[6, 12, "APP"]]
+    },
+    {
+      "text": "launch spotify",
+      "entities": [[6, 12, "APP"]]
+    }
+  ],
+
+  "intent_train_data": [
+    { "text": "what time is it", "intent": "get_time" },
+    { "text": "tell me the time", "intent": "get_time" },
+    { "text": "can you tell me the time", "intent": "get_time" },
+    { "text": "what is the time", "intent": "get_time" },
+    { "text": "the time please", "intent": "get_time" },
+    { "text": "tell me the time please", "intent": "get_time" },
+
+    { "text": "play music", "intent": "play_music" },
+    { "text": "play jazz", "intent": "play_music" },
+    { "text": "can you play some music", "intent": "play_music" },
+    { "text": "play some pop music", "intent": "play_music" },
+    { "text": "play heavy metal", "intent": "play_music" },
+    { "text": "classic music please", "intent": "play_music" },
+
+    { "text": "open youtube", "intent": "open_app" },
+    { "text": "launch youtube", "intent": "open_app" },
+    { "text": "open spotify", "intent": "open_app" },
+    { "text": "launch spotify", "intent": "open_app" },
+
+    { "text": "set a timer", "intent": "set_timer" },
+    { "text": "set a timer for 10 minutes", "intent": "set_timer" },
+    { "text": "can you set a timer for 3 minutes", "intent": "set_timer" },
+    { "text": "timer for 30 seconds", "intent": "set_timer" }
+  ]
+}
